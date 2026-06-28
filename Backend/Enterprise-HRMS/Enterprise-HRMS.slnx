@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="HRMS.API/HRMS.API.csproj" Id="752513a1-ef1b-4bac-97e4-2669221448a9" />
+  <Project Path="HRMS.Application/HRMS.Application.csproj" Id="5d45b803-82de-4751-a833-5427ed48ea0f" />
   <Project Path="HRMS.Domain/HRMS.Domain.csproj" Id="8fab121b-6d93-4dd5-b3cf-948773a1f1fc" />
 </Solution>
