@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using HRMS.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace HRMS.Infrastructure.Data
+namespace HRMS.Infrastructure.Data;
+
+public class ApplicationDbContext : DbContext
 {
-    internal class ApplicationDbContext
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
     {
     }
+
+    public DbSet<Employee> Employees => Set<Employee>();
 }

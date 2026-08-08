@@ -17,7 +17,6 @@
     <Folder Include="Identity\" />
     <Folder Include="Persistence\" />
     <Folder Include="Services\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
